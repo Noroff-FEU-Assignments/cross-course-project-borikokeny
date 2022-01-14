@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "Mic 32 New";
+  src: url(https://use.typekit.net/ocq6hsb.css);
+}
+
+#logo {
+  display: inline-block;
+  height: 120px;
+  width: 250px;
+  float: left;
+  margin-right: 25px;
+  align-items: initial;
+}
+
+#search {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding: 25px 25px 0px 0px;
+}
+
+.search {
+  display: inline-block;
+  padding: 25px 25px 0px 0px;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  height: 122px;
+}
+
+header a {
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  color: #40aea3;
+  padding: 25px 25px 0px 25px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+nav {
+  margin-left: 25px;
+}
+
+nav ul {
+  padding: 25px 25px 0px 0px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Mic 32 New";
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  -ms-grid-row-align: end;
+  grid-template-rows: auto;
+}
+
+/* Home page */
+.welcome {
+  background-image: url("images/wideimagecomp1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  min-height: 70vh;
+  position: relative;
+}
+
+.welcome__content {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
+  color: white;
+  font-size: 40px;
+}
+
+.cta {
+  background-color: white;
+  opacity: 82%;
+  color: #40aea3;
+  font-size: 1em;
+  padding: 10px 80px;
+  font-weight: bold;
+}
+
+.content {
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  word-wrap: break-word;
+  color: #40aea3;
+}
+
+p {
+  padding: 2px;
+  margin: 2px;
+}
+
+.products {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.products img {
+  grid-column: -1/1;
+}
+
+.products h2,
+.products p {
+  grid-column: 1;
+  font-size: 0.9em;
+  margin: 5px;
+  text-align: center;
+}
+
+.products p {
+  padding: 0px 5px;
+  margin-top: 0px;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-around;
+  grid-template-columns: auto;
+  max-width: 1000px;
+  margin: 10px auto;
+  grid-gap: 10px;
+}
+
+.featured img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
