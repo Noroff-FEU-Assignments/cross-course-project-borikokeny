@@ -46,6 +46,15 @@ header a {
 
 nav {
   margin-left: 25px;
+  display: none;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
 }
 
 nav ul {
