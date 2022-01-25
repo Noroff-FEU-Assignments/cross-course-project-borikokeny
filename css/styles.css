@@ -7,7 +7,7 @@
   --green-color: #067a6f;
 }
 
-.logo {
+#logo {
   display: inline-block;
   height: 120px;
   width: 250px;
@@ -46,15 +46,6 @@ header a {
 
 nav {
   margin-left: 25px;
-  display: none;
-}
-
-#hamburger-menu {
-  display: none;
-}
-
-#hamburger-menu:checked ~ nav {
-  display: block;
 }
 
 nav ul {
@@ -96,8 +87,8 @@ body {
 .welcome__content {
   position: absolute;
   text-align: center;
-  top: 10px;
-  left: 0px;
+  top: 100px;
+  left: 100px;
   color: white;
   font-size: 40px;
 }
