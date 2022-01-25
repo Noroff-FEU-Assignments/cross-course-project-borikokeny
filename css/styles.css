@@ -156,22 +156,6 @@ p {
   flex-wrap: wrap;
 }
 
-.featured-list {
-  display: grid;
-  gap: 20px;
-}
-
-.jacket-products {
-  background-color: white;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-}
-
-.jacket-products img {
-  grid-column: -1/1;
-}
-
 .featured img {
   object-fit: cover;
   width: 100%;
