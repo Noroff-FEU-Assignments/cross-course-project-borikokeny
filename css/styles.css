@@ -23,11 +23,6 @@
   margin-bottom: -12px;
 }
 
-.search {
-  display: inline-block;
-  padding: 25px 25px 0px 0px;
-}
-
 #checkout {
   display: inline-block;
   height: 50px;
@@ -163,8 +158,19 @@ p {
 
 .success {
   background-image: url("images/teltjakka.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  min-height: 70vh;
+  position: relative;
 }
 /*Product Pages*/
+
+footer {
+  text-align: right;
+  padding: 20px;
+}
 
 @media (max-width: 800px) {
   header {
