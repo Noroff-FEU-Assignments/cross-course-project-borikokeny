@@ -157,13 +157,11 @@ p {
 }
 
 .success {
-  background-image: url("images/teltjakka.jpg");
-  background-size: cover;
+  background-size: 50vw 33vw;
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: bottom;
-  min-height: 70vh;
-  position: relative;
+  background-position: center;
+  height: 33vw;
+  overflow: hidden;
 }
 /*Product Pages*/
 
