@@ -28,6 +28,14 @@
   padding: 25px 25px 0px 0px;
 }
 
+#checkout {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding: 25px 25px 0px 0px;
+  margin-bottom: 0px;
+}
+
 header {
   display: flex;
   align-items: flex-end;
@@ -138,9 +146,9 @@ p {
 }
 
 .featured {
-  display: flex;
+  display: grid;
   justify-content: space-around;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   max-width: 1000px;
   margin: 10px auto;
   grid-gap: 10px;
@@ -153,6 +161,9 @@ p {
   height: 150px;
 }
 
+.success {
+  background-image: url("images/teltjakka.jpg");
+}
 /*Product Pages*/
 
 @media (max-width: 800px) {
