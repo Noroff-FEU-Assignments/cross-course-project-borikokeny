@@ -172,6 +172,31 @@ p {
   color: rgb(46, 45, 45);
 }
 
+.search_page img {
+  background-size: cover;
+  width: 100%;
+  max-height: 50vw;
+  filter: blur(8px);
+}
+
+#search_field {
+  position: absolute;
+  text-align: center;
+  height: 60px;
+  width: 600px;
+  border: 10px solid #ccc;
+  border-radius: 50px;
+  top: 300px;
+  left: 180px;
+  z-index: 1;
+}
+
+#search_icon {
+  z-index: 2;
+  top: 300px;
+  left: 180px;
+}
+
 .contacts {
   display: flex;
   justify-content: space-evenly;
@@ -207,6 +232,7 @@ p {
 footer {
   border-top: 1px solid;
   border-color: #475251;
+  height: 100px;
 }
 
 footer p {
