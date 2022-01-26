@@ -92,12 +92,8 @@ body {
   text-align: center;
   top: 100px;
   left: 100px;
-  color: white;
+  color: var(--green-color);
   font-size: 40px;
-}
-
-h1 {
-  -webkit-text-stroke: 1px grey;
 }
 
 .cta {
