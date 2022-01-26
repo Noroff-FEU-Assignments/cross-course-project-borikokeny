@@ -172,6 +172,9 @@ p {
   color: rgb(46, 45, 45);
 }
 
+.contact_img {
+  background-size: cover;
+}
 /*Product Pages*/
 
 footer {
