@@ -19,7 +19,7 @@
   display: inline-block;
   height: 50px;
   width: 50px;
-  padding: 25px 25px 0px 0px;
+  padding: 25px 25px 0px 100px;
   margin-bottom: -12px;
 }
 
@@ -64,6 +64,11 @@ nav li {
 
 a {
   text-decoration: none;
+}
+
+.nav_end {
+  display: flex;
+  justify-content: flex-end;
 }
 
 body {
@@ -159,6 +164,14 @@ p {
   height: 33vw;
   overflow: hidden;
 }
+
+.success__content {
+  display: block;
+  text-align: center;
+  font-size: 1.8em;
+  color: rgb(46, 45, 45);
+}
+
 /*Product Pages*/
 
 footer {
