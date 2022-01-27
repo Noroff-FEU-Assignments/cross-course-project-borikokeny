@@ -161,6 +161,36 @@ p {
   height: 150px;
 }
 
+/* Jacketspecific Page */
+
+.img_small {
+  float: left;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  padding: 10px 10px 0 100px;
+}
+
+.img_big {
+  object-fit: cover;
+  width: 320px;
+  height: 320px;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.specific_grid {
+  display: grid;
+  grid-template-columns: 250px 300px 300px;
+  grid-gap: 20px;
+  margin: 10px;
+}
+
+.sizes
+
 /* Checkout page */
 
 #checkout_img {
