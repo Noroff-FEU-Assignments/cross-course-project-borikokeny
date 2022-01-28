@@ -1,0 +1,16 @@
+/* Checkout success*/
+
+.success {
+  background-size: 50vw 33vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 33vw;
+  overflow: hidden;
+}
+
+.success__content {
+  display: block;
+  text-align: center;
+  font-size: 1.8em;
+  color: rgb(46, 45, 45);
+}
