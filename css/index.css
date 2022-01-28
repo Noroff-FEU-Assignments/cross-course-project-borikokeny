@@ -38,6 +38,7 @@
 p {
   padding: 2px;
   margin: 2px;
+  color: #023530;
 }
 
 .products {
@@ -51,6 +52,8 @@ p {
   font-size: 0.9em;
   margin: 5px;
   text-align: center;
+  color: #023530;
+  font-weight: bold;
 }
 
 .products p {

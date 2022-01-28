@@ -1,4 +1,10 @@
 /* Product pages */
+.jackets h1,
+h2,
+p {
+  color: #023530;
+  font-weight: bold;
+}
 
 .products1 {
   background-color: white;
