@@ -57,8 +57,18 @@
   margin-left: 10px;
 }
 
-button {
-  width: 50px;
+.qty_1 {
+  display: flex;
+}
+
+.qty_3 {
+  margin-left: 10px;
+}
+
+.qty_2 {
+  width: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 
 .addtocart_cta {
@@ -66,7 +76,7 @@ button {
   color: white;
   font-size: 1.3em;
   padding: 2px 40px;
-  margin-left: 20px;
+  margin-left: 10px;
   font-weight: bold;
   border: 1px solid #ccc;
 }
@@ -81,7 +91,7 @@ button {
 
 .details_1 {
   margin-bottom: 0px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .details_2 {
