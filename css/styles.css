@@ -78,6 +78,10 @@ a {
   justify-content: flex-end;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 body {
   font-family: "Mic 32 New";
   min-height: 100vh;
