@@ -1,3 +1,5 @@
+@import "imports/links.css";
+
 @font-face {
   font-family: "mic-32-new-web", Verdana, sans-serif;
   src: url("https://use.typekit.net/af/47ed3b/000000000000000077359c65/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
@@ -44,16 +46,6 @@ header {
   height: 108px;
 }
 
-header a {
-  display: flex;
-  align-items: flex-end;
-  background-color: white;
-  color: var(--green-color);
-  padding: 0px 25px 0px 25px;
-  font-size: 30px;
-  font-weight: bolder;
-}
-
 nav {
   margin-left: 25px;
 }
@@ -69,17 +61,9 @@ nav li {
   vertical-align: bottom;
 }
 
-a {
-  text-decoration: none;
-}
-
 .nav_end {
   display: flex;
   justify-content: flex-end;
-}
-
-.active {
-  text-decoration: underline;
 }
 
 body {

@@ -1,4 +1,49 @@
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 480px) {
+  .welcome__content {
+    top: 36px;
+    left: 115px;
+    font-size: 12px;
+  }
+
+  .content {
+    max-width: 320px;
+  }
+
+  .featured {
+    display: flex;
+  }
+
+  .specific_grid {
+    display: block;
+  }
+
+  .checkout {
+    display: block;
+  }
+
+  .checkout_cta {
+    position: relative;
+    left: 20px;
+    top: 16px;
+  }
+
+  .success {
+    background-size: cover;
+  }
+
+  .success__content {
+    font-size: 1em;
+  }
+
+  #search_field {
+    height: 30px;
+    width: 225px;
+    top: 255px;
+    left: -7px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 799px) {
 }
 
 @media (max-width: 800px) {

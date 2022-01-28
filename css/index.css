@@ -16,18 +16,6 @@
   -webkit-text-stroke: 0.5px black;
 }
 
-.cta {
-  background-color: white;
-  opacity: 82%;
-  color: #023530;
-  font-size: 1em;
-  padding: 10px 42px;
-  font-weight: bold;
-}
-
-.cta:hover {
-  background: rgb(132, 165, 162);
-}
 .content {
   text-align: center;
   padding: 5px 0 0 0;
