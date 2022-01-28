@@ -1,4 +1,8 @@
 /* Product pages */
+.jackets {
+  margin-top: -20px;
+}
+
 .jackets h1,
 h2,
 p {
@@ -6,49 +10,37 @@ p {
   font-weight: bold;
 }
 
-.products1 {
+.jackets h1,
+h2 {
+  margin-left: 115px;
+}
+
+.featured {
+  max-width: 1000px;
+  display: grid;
+  margin-left: 120px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-gap: 20px;
   background-color: white;
   align-items: center;
   flex: 1;
 }
 
-.products1 h2,
-.products1 p {
+.products img {
+  float: left;
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.products h2,
+.products p {
   font-size: 0.9em;
   margin: 5px;
   text-align: center;
 }
 
-.products1 p {
+.products p {
   padding: 0px 5px;
   margin-top: 0px;
-}
-
-.products1 img {
-  object-fit: cover;
-  width: 100%;
-  height: 100px;
-}
-
-.products img {
-  width: 100px;
-  margin-top: 6px;
-  vertical-align: middle;
-  object-fit: cover;
-}
-
-.featured_1 {
-  display: flex;
-  justify-content: space-around;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  max-width: 1000px;
-  margin: 10px auto;
-  grid-gap: 10px;
-  flex-wrap: wrap;
-}
-
-.featured_2 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
 }
