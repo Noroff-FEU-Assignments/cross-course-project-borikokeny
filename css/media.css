@@ -18,6 +18,15 @@
 
   .jackets h1 {
     margin-top: 250px;
+    margin-left: 45px;
+  }
+
+  .jackets h2 {
+    margin-left: 45px;
+  }
+
+  .welcome img {
+    display: none;
   }
 
   .welcome__content {
@@ -50,10 +59,12 @@
 
   .specific_grid {
     display: block;
+    margin-top: 230px;
   }
 
   .checkout {
     display: inline-block;
+    margin-top: 230px;
   }
 
   .form {
@@ -78,11 +89,24 @@
     font-size: 1em;
   }
 
+  .search_page img {
+    margin-top: 150px;
+  }
+
   #search_field {
     height: 30px;
     width: 225px;
-    top: 255px;
-    left: -7px;
+    top: 380px;
+    left: 60px;
+  }
+
+  .contact_picture {
+    display: none;
+  }
+
+  .contacts {
+    display: inline-block;
+    margin-top: 240px;
   }
 }
 
