@@ -31,6 +31,10 @@
     font-size: 16px;
   }
 
+  .welcome_cta {
+    background-color: #f28705;
+  }
+
   #pushing {
     color: #023530;
   }
@@ -97,17 +101,6 @@
     font-size: 1em;
   }
 
-  .search_page img {
-    margin-top: 150px;
-  }
-
-  #search_field {
-    height: 30px;
-    width: 225px;
-    top: 380px;
-    left: 60px;
-  }
-
   .contact_picture {
     display: none;
   }
@@ -115,6 +108,22 @@
   .contacts {
     display: grid;
     margin-top: 240px;
+  }
+
+  .search_page img {
+    display: none;
+  }
+
+  #search_field {
+    height: 30px;
+    width: 225px;
+    top: 380px;
+    left: 60px;
+    border: 10px solid #067a6f;
+  }
+
+  #search_icon {
+    display: none;
   }
 }
 
@@ -136,18 +145,28 @@
     padding: 0px;
   }
 
+  .welcome {
+    display: none;
+  }
+
   .welcome__content {
-    top: 10px;
-    left: 8px;
+    top: 312px;
+    left: 28px;
     font-size: 25px;
   }
 
+  .welcome_cta {
+    background-color: #f28705;
+  }
+
   .content {
-    max-width: 460px;
+    display: none;
   }
 
   .featured {
     display: block;
+    margin-top: 348px;
+    margin-left: 40px;
   }
 
   .featured img {
@@ -217,11 +236,20 @@
     margin-top: 240px;
   }
 
+  .search_page img {
+    display: none;
+  }
+
   #search_field {
     height: 30px;
     width: 225px;
-    top: 255px;
+    top: 365px;
     left: 38px;
+    border: 10px solid #067a6f;
+  }
+
+  #search_icon {
+    display: none;
   }
 }
 
@@ -251,18 +279,29 @@
     padding: 0px;
   }
 
+  .welcome {
+    display: none;
+  }
+
   .welcome__content {
-    top: 75px;
-    left: 6px;
+    top: 175px;
+    left: 48px;
     font-size: 15px;
+    color: #023530;
+  }
+
+  .welcome_cta {
+    background-color: #f28705;
   }
 
   .content {
     max-width: 780px;
+    margin-top: 151px;
   }
 
   .featured {
     display: block;
+    margin-left: 69px;
   }
 
   .featured img {
@@ -327,9 +366,18 @@
     margin-left: 5px;
   }
 
+  .search_page img {
+    display: none;
+  }
+
   #search_field {
     width: 588px;
     top: 268px;
     left: 12px;
+    border: 10px solid #067a6f;
+  }
+
+  #search_icon {
+    display: none;
   }
 }
