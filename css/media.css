@@ -16,31 +16,29 @@
     padding: 0px;
   }
 
-  .jackets h1 {
-    margin-top: 250px;
-    margin-left: 45px;
+  .content {
+    display: none;
+    max-width: 320px;
   }
 
-  .jackets h2 {
-    margin-left: 45px;
-  }
-
-  .welcome img {
+  .welcome {
     display: none;
   }
 
   .welcome__content {
-    top: 36px;
-    left: 115px;
-    font-size: 12px;
+    top: 333px;
+    left: 30px;
+    font-size: 16px;
   }
 
-  .content {
-    max-width: 320px;
+  #pushing {
+    color: #023530;
   }
 
   .featured {
     display: block;
+    margin-top: 325px;
+    margin-left: 34px;
   }
 
   .featured img {
@@ -48,8 +46,18 @@
     height: 80vh;
   }
 
+  .jackets h1 {
+    margin-top: 256px;
+    margin-left: 45px;
+  }
+
+  .jackets h2 {
+    margin-left: 45px;
+  }
+
   .featured2 {
     display: inline-block;
+    margin-left: 28px;
   }
 
   .featured2 img {
