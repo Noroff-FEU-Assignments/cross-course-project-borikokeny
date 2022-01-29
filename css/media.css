@@ -1,4 +1,8 @@
 @media (min-width: 320px) and (max-width: 480px) {
+  main {
+    margin-top: 200px;
+  }
+
   header {
     display: inline-block;
   }
