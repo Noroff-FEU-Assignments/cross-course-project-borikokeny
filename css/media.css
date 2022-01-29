@@ -105,12 +105,29 @@
   }
 
   .contacts {
-    display: inline-block;
+    display: grid;
     margin-top: 240px;
   }
 }
 
 @media (min-width: 481px) and (max-width: 799px) {
+  header {
+    display: inline-block;
+  }
+
+  nav ul {
+    display: inline-block;
+    margin-top: 0px;
+  }
+
+  #search {
+    padding: 0px;
+  }
+
+  #checkout {
+    padding: 0px;
+  }
+
   .welcome__content {
     top: 10px;
     left: 8px;
@@ -121,9 +138,75 @@
     max-width: 460px;
   }
 
+  .featured {
+    display: block;
+  }
+
   .featured img {
     width: 80vw;
     height: 80vh;
+  }
+
+  .jackets h1 {
+    margin-top: 250px;
+    margin-left: 45px;
+  }
+
+  .jackets h2 {
+    margin-left: 45px;
+  }
+
+  .featured2 {
+    display: inline-block;
+    margin-left: 45px;
+  }
+
+  .featured2 img {
+    width: 80vw;
+    height: 80vh;
+  }
+
+  .specific_grid {
+    display: block;
+    margin-top: 230px;
+  }
+
+  .checkout {
+    display: inline-block;
+    margin-top: 230px;
+  }
+
+  .form {
+    margin-left: 10px;
+  }
+
+  .fieldset {
+    margin-left: 10px;
+  }
+
+  .checkout_cta {
+    position: relative;
+    left: 20px;
+    top: 16px;
+  }
+
+  .success {
+    background-size: cover;
+    margin-top: 110px;
+  }
+
+  .success__content {
+    font-size: 1em;
+    margin-top: -22px;
+  }
+
+  .contact_picture {
+    display: none;
+  }
+
+  .contacts {
+    display: grid;
+    margin-top: 240px;
   }
 
   #search_field {
