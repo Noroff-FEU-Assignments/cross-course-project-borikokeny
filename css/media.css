@@ -218,6 +218,31 @@
 }
 
 @media (min-width: 800px) and (max-width: 1199px) {
+  header main {
+    max-width: 100vw;
+  }
+
+  #logo {
+    margin-right: 0px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    padding: 0px;
+  }
+
+  #search {
+    padding: 25px 25px 0px 0px;
+  }
+
+  #checkout {
+    padding: 0px;
+  }
+
   .welcome__content {
     top: 75px;
     left: 6px;
@@ -228,32 +253,75 @@
     max-width: 780px;
   }
 
+  .featured {
+    display: block;
+  }
+
   .featured img {
     width: 80vw;
     height: 80vh;
+  }
+
+  .jackets h1 {
+    margin-top: 110px;
+    margin-left: 4px;
+  }
+
+  .jackets h2 {
+    margin-left: 4px;
+  }
+
+  .featured2 {
+    display: flex;
+    grid-template-columns: 100px 100px 100px 100px;
+    column-gap: 54px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+  }
+
+  .specific_grid {
+    margin-left: -62px;
+  }
+
+  .checkout {
+    grid-gap: 5px;
+    margin: 5px;
+    margin-top: 40px;
+  }
+
+  form {
+    max-width: 200px;
+    margin-left: 7px;
+    padding: 11px 23px 19px 10px;
+  }
+
+  fieldset {
+    width: 185px;
+  }
+
+  .review {
+    max-width: 223px;
+    margin-left: -52px;
+  }
+
+  .checkout_cta {
+    width: 139px;
+    left: 564px;
+    top: 527px;
+  }
+
+  .success {
+    background-size: cover;
+  }
+
+  .contact_picture {
+    width: 790px;
+    margin-left: 5px;
   }
 
   #search_field {
     width: 588px;
     top: 268px;
     left: 12px;
-  }
-
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header main {
-    max-width: 100vw;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #logo {
-    margin-right: 0px;
   }
 }
