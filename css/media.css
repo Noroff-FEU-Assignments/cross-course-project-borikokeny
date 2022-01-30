@@ -111,7 +111,7 @@
 
   .contacts {
     display: grid;
-    margin-top: 240px;
+    margin-top: 50px;
   }
 
   .search_page img {
@@ -367,7 +367,8 @@
 
   .contact_picture {
     width: 790px;
-    margin-left: 5px;
+    height: 200px;
+    margin-left: 55px;
   }
 
   .search_page img {
