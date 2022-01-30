@@ -12,7 +12,7 @@
   text-align: center;
   top: 100px;
   left: 180px;
-  color: #ffffff;
+  color: var(--white-color);
   font-size: 40px;
   -webkit-text-stroke: 0.5px black;
 }
@@ -28,11 +28,11 @@
 p {
   padding: 2px;
   margin: 2px;
-  color: #023530;
+  color: var(--dark-green-color);
 }
 
 .products {
-  background-color: white;
+  background-color: var(--white-color);
   align-items: center;
   flex: 1;
 }
@@ -42,7 +42,7 @@ p {
   font-size: 0.9em;
   margin: 5px;
   text-align: center;
-  color: #023530;
+  color: var(--dark-green-color);
   font-weight: bold;
 }
 

@@ -7,7 +7,12 @@
 }
 
 :root {
-  --green-color: #067a6f;
+  --green-color: #02645b;
+  --dark-green-color: #023530;
+  --light-green-color: #067a6f;
+  --orange-color: #f28705;
+  --white-color: #fff;
+  --grey-color: #ccc;
 }
 
 #logo {

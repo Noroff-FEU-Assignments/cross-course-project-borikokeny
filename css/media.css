@@ -37,11 +37,11 @@
   }
 
   .welcome_cta {
-    background-color: #f28705;
+    background-color: var(--orange-color);
   }
 
   #pushing {
-    color: #023530;
+    color: var(--dark-green-color);
   }
 
   .featured {
@@ -126,7 +126,7 @@
     width: 225px;
     top: 380px;
     left: 60px;
-    border: 10px solid #067a6f;
+    border: 10px solid var(--light-green-color);
   }
 
   #search_icon {
@@ -164,7 +164,7 @@
   }
 
   .welcome_cta {
-    background-color: #f28705;
+    background-color: var(--orange-color);
   }
 
   .content {
@@ -172,7 +172,7 @@
   }
 
   #pushing {
-    color: #023530;
+    color: var(--dark-green-color);
   }
 
   .featured {
@@ -258,7 +258,7 @@
     width: 225px;
     top: 365px;
     left: 38px;
-    border: 10px solid #067a6f;
+    border: 10px solid var(--light-green-color);
   }
 
   #search_icon {
@@ -300,11 +300,11 @@
     top: 175px;
     left: 260px;
     font-size: 15px;
-    color: #023530;
+    color: var(--dark-green-color);
   }
 
   .welcome_cta {
-    background-color: #f28705;
+    background-color: var(--orange-color);
   }
 
   .content {
@@ -389,7 +389,7 @@
     width: 588px;
     top: 268px;
     left: 12px;
-    border: 10px solid #067a6f;
+    border: 10px solid var(--light-green-color);
   }
 
   #search_icon {

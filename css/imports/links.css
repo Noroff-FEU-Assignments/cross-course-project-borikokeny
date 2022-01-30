@@ -2,7 +2,7 @@
 header a {
   display: flex;
   align-items: flex-end;
-  background-color: white;
+  background-color: var(--white-color);
   color: var(--green-color);
   padding: 0px 25px 0px 25px;
   font-size: 30px;
@@ -18,9 +18,9 @@ a {
 }
 
 .welcome_cta {
-  background-color: white;
+  background-color: var(--white-color);
   opacity: 82%;
-  color: #023530;
+  color: var(--dark-green-color);
   font-size: 1em;
   padding: 10px 42px;
   font-weight: bold;
@@ -32,12 +32,12 @@ a {
 
 .addtocart_cta {
   background-color: var(--green-color);
-  color: white;
+  color: var(--white-color);
   font-size: 1.3em;
   padding: 2px 40px;
   margin-left: 10px;
   font-weight: bold;
-  border: 1px solid #ccc;
+  border: 1px solid var(--grey-color);
 }
 
 .addtocart_cta:hover {
@@ -46,11 +46,11 @@ a {
 
 .checkout_cta {
   background-color: #55b5a6;
-  color: white;
+  color: var(--white-color);
   font-size: 1.2em;
   padding: 10px 42px;
   font-weight: bold;
-  border: 1px solid #ccc;
+  border: 1px solid var(--grey-color);
   grid-column: 3 / 4;
   position: absolute;
   width: 220px;

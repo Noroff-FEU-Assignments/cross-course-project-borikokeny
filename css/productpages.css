@@ -6,7 +6,7 @@
 .jackets h1,
 h2,
 p {
-  color: #023530;
+  color: var(--dark-green-color);
   font-weight: bold;
 }
 
@@ -21,7 +21,7 @@ h2 {
   margin-left: 120px;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   grid-gap: 20px;
-  background-color: white;
+  background-color: var(--white-color);
   align-items: center;
   flex: 1;
 }

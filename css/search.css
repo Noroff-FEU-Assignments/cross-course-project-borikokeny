@@ -12,7 +12,7 @@
   text-align: center;
   height: 60px;
   width: 600px;
-  border: 10px solid #ccc;
+  border: 10px solid var(--grey-color);
   border-radius: 50px;
   top: 300px;
   left: 180px;
