@@ -38,28 +38,79 @@
     </nav>
   </header>
 <main>
-  <div class="contact_picture">
-    <img class="contact_img">
-  </div>
   <div class="contacts">
-    <div class="contact_points">
-      <img src="images/Home_icon.jpg" alt="Home icon">
-      <h3>1142 Yorkshire Circle Rocky Mount North Carolina 27801</h3>
+    <div>
+      <div class="contact_points">
+        <h1>Ways to contact us: </h1>
+        <h2>1142 Yorkshire Circle Rocky Mount</h2>
+        <h2>North Carolina 27801 USA</h2>
+      </div>
+      <div class="contact_points">
+        <h2><a href="mailto:customerservice@rainydays.com">E-mail: customerservice@rainydays.com</a></h2>
+      </div>
+      <div class="contact_points">
+        <h2><a href="tel:+12529554024">Tel: 252-955-4024</a></h2>  
+      </div>
+      <div class="contact_points">
+        <h2><a href="wwww.facebook.com/rainydays">facebook.com/rainydays</a></h2>
+        <h2><a href="www.messenger.com/rainydays">messenger.com/rainydays</a></h2>
+      </div>
     </div>
-    <div class="contact_points">
-      <img src="images/Mail_icon.jpg" alt="Mail icon">
-      <h3>customerservice@rainydays.com</h3>
-    </div>
-    <div class="contact_points">
-      <img src="images/Phone_icon.jpg" alt="Phone icon">
-      <h3>252-955-4024</h3>  
-    </div>
-    <div class="contact_points">
-      <img src="images\FB_icon.png" alt="FB icon">
-      <h3>facebook.com/rainydays</h3>
+    <div>
+      <form id="contactForm" method="POST">
+        <div>
+          <fieldset>
+            <legend><strong>Sign up for newsletter</strong></legend>
+            <div>
+              <label for="first_name">First name (required)</label>
+              <input type="text" name="first_name" id="firstName" class="form__input">
+              <div class="form-error" id="firstNameError">Please enter your first name</div>
+            </div>
+            <div>
+              <label for="last_name">Last name</label>
+              <input type="text" name="last_name" id="lastName" class="form__input">
+            </div>
+            <div>
+              <label for="email">e-mail (required)</label>
+              <input type="email" name="email" id="email" class="form__input">
+              <div class="form-error" id="emailError">Please enter a valid e-mail address</div>
+            </div>
+            <button>Sign up</button>
+          </fieldset>
+        </div>  
+      </form>
     </div>
   </div>
-  <footer> 
-    <p>&copy; Bori Kokeny</p>
-</footer>
 </main>
+<footer> 
+  <div class="footer__line">
+    <div class="footer">
+      <div class="footer__container">
+        <h2>Customer service</h2>
+        <p><a href="contact.html">Returns</a></p>
+        <p><a href="contact.html">Terms & Conditions</a></p>
+        <p><a href="contact.html">Contact us</a></p>
+        <p><a href="contact.html">About us</a></p>
+        <p><a href="contact.html">Privacy Policy</a></p>
+      </div>
+      <div class="footer__container">
+        <h2>Follow us</h2>
+        <p><a href="www.facebook.com">Facebook</a></p>
+        <p><a href="www.instagram.com">Instagram</a></p>
+        <p><a href="www.tiktok.com">TikTok</a></p>
+      </div>
+      <div class="footer__container">
+        <h2>Sign up for our newsletter and get 15% off</h2>
+        <div>
+          <input type="email" name="email" id="email" class="form__input" placeholder="email address">
+        </div>
+        <div>
+          <input type="submit" name="subscribe" value="Sign me up" id="subscribe" class="button">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/contact.js"></script>
+</body>
+</html>

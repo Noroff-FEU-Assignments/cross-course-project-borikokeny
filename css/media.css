@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   main {
     margin-top: 200px;
   }
@@ -107,10 +107,6 @@
     font-size: 1em;
   }
 
-  .contact_picture {
-    display: none;
-  }
-
   .contacts {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -118,7 +114,7 @@
   }
 }
 
-@media (min-width: 481px) and (max-width: 799px) {
+@media (max-width: 799px) {
   header {
     display: inline-block;
     height: unset;
@@ -223,10 +219,6 @@
     margin-top: -22px;
   }
 
-  .contact_picture {
-    display: none;
-  }
-
   .contacts {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -234,7 +226,7 @@
   }
 }
 
-@media (min-width: 800px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
   header {
     height: unset;
   }
@@ -343,9 +335,4 @@
     margin-top: -98px;
   }
 
-  .contact_picture {
-    width: 790px;
-    height: 200px;
-    margin-left: 55px;
-  }
 }

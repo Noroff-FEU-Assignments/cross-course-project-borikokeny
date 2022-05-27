@@ -39,7 +39,7 @@
         <li><a href="women.html">women</a></li>
         <li><a href="kids.html">kids</a></li>
         <li><a href="contact.html">contact</a></li>
-        <input type="text" id="search_field" onkeyup="myFunction()" placeholder="Search for jackets..." title="Type in a name">
+        <input type="search" id="search_field" onkeyup="myFunction()" placeholder="Search for jackets...">
         <li><img id="search" src="images/Search_icon.jpg" alt="search button"></li>
         <li><a href=checkout.html><img class="nav_end" id="checkout" src="images/shopping_basket.png" alt="shopping basket button"></a></li>
       </ul>
@@ -98,8 +98,34 @@
         </div>
     </section>
   </main>
-  <footer> 
-      <p>&copy; Bori Kokeny</p>
+  <footer>
+    <div class="footer__line">
+      <div class="footer">
+        <div class="footer__container">
+          <h2>Customer service</h2>
+          <p><a href="contact.html">Returns</a></p>
+          <p><a href="contact.html">Terms & Conditions</a></p>
+          <p><a href="contact.html">Contact us</a></p>
+          <p><a href="contact.html">About us</a></p>
+          <p><a href="contact.html">Privacy Policy</a></p>
+        </div>
+        <div class="footer__container">
+          <h2>Follow us</h2>
+          <p><a href="www.facebook.com">Facebook</a></p>
+          <p><a href="www.instagram.com">Instagram</a></p>
+          <p><a href="www.tiktok.com">TikTok</a></p>
+        </div>
+        <div class="footer__container">
+          <h2>Sign up for our newsletter and get 15% off</h2>
+          <div>
+            <input type="email" name="email" id="email" class="form__input" placeholder="email address">
+          </div>
+          <div>
+            <input type="submit" name="subscribe" value="Sign me up" id="subscribe" class="button">
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
   <script src="js/script.js"></script>
 </body>

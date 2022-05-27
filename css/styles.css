@@ -95,3 +95,25 @@ footer {
   font-size: 0.8em;
   padding: -10px;
 }
+
+.footer__line {
+  background-color: #39463de8;
+  height: 220px;
+  width: 100%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 20px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.footer p {
+  color: white;
+}
+
+a {
+  color: #fff;
+}
