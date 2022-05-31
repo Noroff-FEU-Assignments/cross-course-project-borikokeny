@@ -47,15 +47,15 @@ a {
 .checkout_cta {
   background-color: #55b5a6;
   color: var(--white-color);
-  font-size: 1.2em;
+  font-size: 15px;
   padding: 10px 42px;
   font-weight: bold;
   border: 1px solid var(--grey-color);
-  grid-column: 3 / 4;
-  position: absolute;
+  /* grid-column: 3 / 4;
+  position: absolute; */
   width: 220px;
-  left: 650px;
-  top: 550px;
+  /* left: 650px;
+  top: 550px; */
   text-align: center;
 }
 
