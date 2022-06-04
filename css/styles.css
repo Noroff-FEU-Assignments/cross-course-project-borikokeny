@@ -22,19 +22,18 @@
   margin-right: 25px;
   align-items: initial;
 }
-
+/* 
 #search {
   display: inline-block;
   height: 45px;
   width: 45px;
   padding: 25px 25px 0px 100px;
   margin-bottom: -12px;
-}
+} */
 
 #search_field {
   border: 5px solid orange;
   margin-left: 50px;
-  margin-right: -100px;
 }
 
 #checkout {
@@ -105,7 +104,7 @@ footer {
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 20px;
+  margin-left: 120px;
   color: #fff;
   font-size: 15px;
 }

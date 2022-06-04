@@ -1,17 +1,10 @@
-/* Product pages */
 .jackets {
   margin-top: -20px;
 }
 
-.jackets h1,
-h2,
-p {
+.jackets > * {
   color: var(--dark-green-color);
   font-weight: bold;
-}
-
-.jackets h1,
-h2 {
   margin-left: 115px;
 }
 
