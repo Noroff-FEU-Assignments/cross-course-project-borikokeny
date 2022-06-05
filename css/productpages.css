@@ -6,6 +6,7 @@
   color: var(--dark-green-color);
   font-weight: bold;
   margin-left: 115px;
+  text-align: center;
 }
 
 .featured2 {
@@ -19,7 +20,20 @@
   flex: 1;
 }
 
+.under-img {
+  font-size: 0.9em;
+  margin: 5px;
+  color: var(--dark-green-color);
+}
+
 .products img {
+  float: left;
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card {
   float: left;
   width: 150px;
   height: 100px;

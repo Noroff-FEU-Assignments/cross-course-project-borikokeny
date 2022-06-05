@@ -22,14 +22,6 @@
   margin-right: 25px;
   align-items: initial;
 }
-/* 
-#search {
-  display: inline-block;
-  height: 45px;
-  width: 45px;
-  padding: 25px 25px 0px 100px;
-  margin-bottom: -12px;
-} */
 
 #search_field {
   border: 5px solid orange;

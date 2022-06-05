@@ -3,12 +3,14 @@ const firstName = document.querySelector("#firstName");
 const firstNameError = document.querySelector("#firstNameError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
+const successMessage = document.querySelector(".thankyou-message");
 
 function validateForm(event) {
     event.preventDefault();
 
     if (checkLength(firstName.value, 0) === true) {
         firstNameError.style.display = "none";
+        successMessage.innerHTML = "Thank you for your registration!";
     } else {
         firstNameError.style.display = "block";
     }

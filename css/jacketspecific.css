@@ -19,12 +19,20 @@
   height: 320px;
   padding: 10px;
 }
+
 .row {
   display: flex;
   flex-direction: column;
 }
 
-.product_description {
+.card {
+  object-fit: cover;
+  width: 320px;
+  height: 320px;
+  padding: 10px;
+}
+
+/* .product_description {
   text-align: left;
   border: 1px solid #ccc;
   margin-top: 10px;
@@ -37,7 +45,7 @@
 
 .product_description h2 {
   font-size: 25px;
-}
+} */
 
 .sizes {
   display: flex;
@@ -62,10 +70,6 @@
 .qty_1 {
   display: flex;
 }
-
-/* .qty_3 {
-  margin-left: 10px;
-} */
 
 .qty_2 {
   width: 20px;
