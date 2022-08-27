@@ -5,6 +5,13 @@
   margin-left: 210px;
 }
 
+.specific_grid2 {
+  display: grid;
+  grid-template-columns: 300px 400px;
+  grid-gap: 50px;
+  margin-left: 210px;
+}
+
 .img_small {
   float: left;
   object-fit: cover;
@@ -89,4 +96,10 @@
 .details_2 {
   margin-top: 0px;
   font-size: 15px;
+}
+
+.product-image {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
 }
